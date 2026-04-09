@@ -74,6 +74,8 @@ class Box<T>{
 }
 class GenericDemo{
     public static void main(String args[]){
+
+        // This is the main class to demonstrate the Generics
         Box<String> b=new Box();
         b.set("Demo");
         System.out.println(b.get());
